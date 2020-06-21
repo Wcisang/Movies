@@ -27,7 +27,7 @@ class MainViewModel @ViewModelInject constructor(
                         return@insertSeparators null
 
                     if (before == null)
-                        return@insertSeparators null
+                        return@insertSeparators UiModel.SeparatorItem("${after.popularityCount}0+ stars")
 
                     if (before.popularityCount > after.popularityCount) {
                         if (after.popularityCount >= 1) {

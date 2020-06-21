@@ -16,6 +16,7 @@ object Version {
     const val RETROFIT = "2.9.0"
     const val COIL = "0.11.0"
     const val ROOM = "2.3.0-alpha01"
+    const val APP_STARTUP = "1.0.0-alpha01"
 
     // Test
     const val JUNIT = "4.12"

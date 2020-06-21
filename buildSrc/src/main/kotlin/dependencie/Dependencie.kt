@@ -18,7 +18,8 @@ enum class Dependencie(val route: String) {
     GSON_CONVERTER("com.squareup.retrofit2:converter-gson:${Version.RETROFIT}"),
     COIL("io.coil-kt:coil:${Version.COIL}"),
     ROOM("androidx.room:room-runtime:${Version.ROOM}"),
-    ROOM_KTX("androidx.room:room-ktx:${Version.ROOM}")
+    ROOM_KTX("androidx.room:room-ktx:${Version.ROOM}"),
+    APP_STARTUP("androidx.startup:startup-runtime:${Version.APP_STARTUP}")
 }
 
 enum class KaptDependencie(val route : String) {
