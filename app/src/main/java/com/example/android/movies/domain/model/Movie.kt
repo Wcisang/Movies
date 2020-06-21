@@ -8,7 +8,7 @@ import com.google.gson.annotations.SerializedName
 data class Movie(
     @PrimaryKey @field:SerializedName("id") val id: Int,
     @field:SerializedName("adult") val adult: Boolean,
-    @field:SerializedName("backdrop_path") val backdrop_path: String,
+    @field:SerializedName("backdrop_path") val backdrop_path: String?,
     @field:SerializedName("original_language") val original_language: String,
     @field:SerializedName("original_title") val original_title: String,
     @field:SerializedName("overview") val overview: String,
